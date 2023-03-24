@@ -1,0 +1,23 @@
+.home__token-expired {
+  width: var(--laptop-width);
+
+  margin: 15% auto;
+}
+
+.home__token-expired h3 {
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.7;
+}
+.home__greet-user {
+  width: var(--laptop-width);
+
+  padding: 1rem 1rem;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 450px) {
+  .home__greet-user {
+    padding: 1rem 0;
+  }
+}

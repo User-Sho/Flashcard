@@ -1,0 +1,49 @@
+.footer__container {
+  width: var(--laptop-width);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 0 auto;
+  padding-bottom: 1.8rem;
+}
+
+.footer__social {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  padding: 1.75rem 0;
+}
+.footer__social div {
+  width: 40px;
+  height: 40px;
+}
+
+.footer__social svg {
+  width: 100%;
+  height: 100%;
+
+  cursor: pointer;
+
+  transition: color 0.21s ease-in-out;
+  color: var(--dark-blue);
+}
+
+.footer__social svg:hover,
+.footer__social svg:focus {
+  color: var(--dark-blue-muted);
+}
+
+.footer__copyright {
+  width: 100%;
+
+  color: var(--dark-blue);
+  font-weight: 300;
+  text-align: center;
+}

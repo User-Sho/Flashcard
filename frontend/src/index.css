@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+*:focus {
+  outline: none;
+}
+
+:root {
+  --font-main: "Poppins", sans-serif;
+  --font-sub: "Red Had Display", sans-serif;
+
+  --white-main: rgb(247, 255, 253);
+  --white-muted: rgb(218, 232, 232);
+
+  --dark-blue-light: rgb(182, 199, 205);
+  --dark-blue: rgb(88, 101, 106);
+  --dark-blue-muted: rgb(71, 83, 87);
+
+  --mobile-max: 767px;
+
+  --round-border: 0.5rem;
+  --laptop-width: clamp(330px, 80vw, 650px);
+}

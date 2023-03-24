@@ -1,0 +1,52 @@
+.quote__container {
+  width: var(--laptop-width);
+
+  color: var(--white-muted);
+  font-size: 1.4rem;
+  font-weight: 400;
+
+  border-radius: var(--round-border);
+  margin: 1.8rem auto;
+}
+
+.quote__symbol {
+  width: 100%;
+}
+
+.quote__symbol svg {
+  width: 45px;
+  height: 45px;
+  color: var(--dark-blue-muted);
+  opacity: 0.25;
+}
+
+.quote__symbol.close {
+  text-align: right;
+}
+
+.quote__quote {
+  width: 85%;
+  text-shadow: 0 0 3px rgb(0, 95, 95);
+  line-height: 2;
+
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+
+.quote__author {
+  width: 85%;
+
+  font-size: 0.95rem;
+  font-weight: 300;
+  text-align: right;
+
+  padding: 1rem 0.5rem 0;
+  margin: 0 auto;
+}
+
+/*Media query*/
+@media screen and (max-width: 450px) {
+  .quote__container {
+    font-size: 1.25rem;
+  }
+}

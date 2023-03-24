@@ -1,0 +1,35 @@
+.loading__container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading__spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: rgb(2, 128, 132) transparent rgb(168, 81, 81) transparent;
+  border-radius: 50%;
+  animation: spin 1.5s ease-in-out infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    scale: 1.2;
+    border-color: rgba(2, 128, 132, 0.62) transparent rgba(168, 81, 81, 0.62)
+      transparent;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

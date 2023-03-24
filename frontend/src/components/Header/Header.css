@@ -1,0 +1,55 @@
+.header__nav {
+  width: var(--laptop-width);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+
+.header__nav a,
+.header__nav a:visited {
+  text-decoration: none;
+  color: var(--white-main);
+}
+
+.header__nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.72rem;
+
+  list-style: none;
+}
+
+.header__nav ul li svg {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 0.3rem;
+}
+
+.header__nav ul li button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.header__nav-title {
+  letter-spacing: 0.06rem;
+  font-size: 1.5rem;
+}
+
+.header__nav-login > button:hover,
+.header__nav-logout > button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .header__nav-login.mobile {
+    display: none;
+  }
+}
