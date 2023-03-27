@@ -36,6 +36,11 @@ h3 {
   transition: all 0.3s ease-in-out;
 }
 
+.show-modal:hover,
+.show-modal:focus {
+  background-color: rgb(176, 74, 74);
+}
+
 .show-modal div {
   width: 39.4px;
   height: 39.4px;

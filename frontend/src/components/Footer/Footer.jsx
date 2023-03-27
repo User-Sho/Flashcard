@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaRegEnvelope } from "react-icons/fa";
 
 import "./Footer.css";
 
@@ -35,6 +35,14 @@ const Footer = () => {
           <div>
             <FaTwitter />
           </div>
+        </a>
+      </div>
+      <div className="footer__contact">
+        <div>
+          <FaRegEnvelope />
+        </div>
+        <a href="mailto:coding.zamurai@gmail.com?subject=From your flashcard app - &body= Hi Sho!">
+          Contact Me
         </a>
       </div>
       <div className="footer__copyright">
