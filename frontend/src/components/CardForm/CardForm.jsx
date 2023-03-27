@@ -129,6 +129,7 @@ const CardForm = ({
                   type="text"
                   name="category"
                   value={category}
+                  placeholder="Enter a single word. e.g. JavaScript"
                   required
                 />
               </fieldset>
@@ -140,7 +141,7 @@ const CardForm = ({
                   type="text"
                   name="tags"
                   value={tags}
-                  placeholder=""
+                  placeholder="Use a comma to separate words."
                   required
                 />
               </fieldset>
