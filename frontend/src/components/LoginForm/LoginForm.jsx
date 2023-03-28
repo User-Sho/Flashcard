@@ -76,6 +76,7 @@ const LoginForm = (props) => {
             required="required"
             placeholder="Enter your email."
             onChange={onChange}
+            autoComplete="on"
             autoFocus
           />
         </fieldset>
@@ -89,6 +90,7 @@ const LoginForm = (props) => {
             required="required"
             placeholder="Enter your password."
             onChange={onChange}
+            autoComplete="on"
           />
         </fieldset>
         <button type="submit" onClick={onSubmit} className="login__submit-btn">

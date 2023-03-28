@@ -15,7 +15,7 @@ const registerUser = async (req, res) => {
       .json({ error: "Please fill in all required fields." });
   }
 
-  // Check if user exists
+  // Check if the user exists
   const userExists = await User.findOne({ email });
 
   if (userExists) {

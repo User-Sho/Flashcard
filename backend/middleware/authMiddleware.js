@@ -3,7 +3,7 @@ import jwt from "jsonwebtoken";
 import User from "../models/userModel.js";
 
 const protectRoute = async (req, res, next) => {
-  // verify user is authenticated
+  // verify the user is authenticated
   const { authorization } = req.headers;
 
   if (!authorization) {
@@ -20,7 +20,7 @@ const protectRoute = async (req, res, next) => {
     // Verify token
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
-    // Get user from the token
+    // Get the user info from the token
     // Note that we use mongoose select() method to exclude the password and email here
     req.user = await User.findById(decoded.id).select("-password -email");
 

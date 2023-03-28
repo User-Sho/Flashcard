@@ -195,7 +195,6 @@ const Flashcard = ({ name }) => {
               </div>
 
               {/*Answer Side */}
-
               <div
                 className={`flashcard__card answer ${
                   flip ? "text-scroll" : ""
