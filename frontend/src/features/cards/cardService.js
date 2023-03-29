@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "/api/flashcards/";
+const API_URL = "https://flashcard-mern-app.onrender.com/api/flashcards/";
 
 // Create new flashcard
 const createCard = async (cardData, token) => {

@@ -5,7 +5,7 @@
 
 import axios from "axios";
 
-const API_URL = "/api/users/";
+const API_URL = "https://flashcard-mern-app.onrender.com/api/users/";
 
 // Register user
 const register = async (userData) => {
