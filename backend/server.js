@@ -5,6 +5,7 @@ import express from "express";
 import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import rateLimit from "express-rate-limit";
+import cors form "cors";
 import "colors";
 
 // import { errorHandler } from "./middleware/errorMiddleware.js";
@@ -24,11 +25,13 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // middleware
+app.use(cors())
 app.use(express.json());
 app.use((req, res, next) => {
   console.log(`${req.method.yellow} => ${req.path.yellow} route`);
   next();
 });
+
 
 ////////////////////
 // All routes
