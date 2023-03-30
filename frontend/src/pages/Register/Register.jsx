@@ -86,6 +86,7 @@ const Register = () => {
               name="name"
               value={name}
               onChange={onChange}
+              required
             />
           </fieldset>
           <fieldset className="form-filedset">
@@ -98,6 +99,7 @@ const Register = () => {
               name="email"
               value={email}
               onChange={onChange}
+              required
             />
           </fieldset>
           <fieldset className="form-filedset">
@@ -110,6 +112,7 @@ const Register = () => {
               name="password"
               value={password}
               onChange={onChange}
+              required
             />
           </fieldset>
           <fieldset className="form-filedset">
@@ -122,6 +125,7 @@ const Register = () => {
               name="pwConfirm"
               value={pwConfirm}
               onChange={onChange}
+              required
             />
           </fieldset>
           <div className="registration__submit">
