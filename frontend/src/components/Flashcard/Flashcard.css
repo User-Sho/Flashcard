@@ -150,6 +150,7 @@ select:focus {
   padding: 0 1.35rem;
 }
 
+.flashcard__card-text::-webkit-scrollbar,
 .flashcard__card-text::-webkit-scrollbar-track,
 .flashcard__card-text::-webkit-scrollbar-thumb {
   background: transparent;

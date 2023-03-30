@@ -26,6 +26,7 @@ textarea {
   padding: 0 0.6rem;
 }
 
+textarea::-webkit-scrollbar,
 textarea::-webkit-scrollbar-track,
 textarea::-webkit-scrollbar-thumb {
   background: transparent;
@@ -66,6 +67,7 @@ textarea::-webkit-scrollbar-thumb:hover {
   overflow-y: scroll;
 }
 
+.cardForm-form::-webkit-scrollbar,
 .cardForm-form::-webkit-scrollbar-track,
 .cardForm-form::-webkit-scrollbar-thumb {
   background: transparent;
