@@ -26,6 +26,16 @@ textarea {
   padding: 0 0.6rem;
 }
 
+textarea::-webkit-scrollbar-track,
+textarea::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-blue-muted);
+  border-radius: 50px;
+}
+
 .cardForm-container {
   width: 100%;
 
@@ -54,6 +64,16 @@ textarea {
   margin: 10vh auto 10vh auto;
   padding: 2rem 1rem;
   overflow-y: scroll;
+}
+
+.cardForm-form::-webkit-scrollbar-track,
+.cardForm-form::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.cardForm-form::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-blue-muted);
+  border-radius: 50px;
 }
 
 .cardForm__submit {

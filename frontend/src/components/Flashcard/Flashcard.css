@@ -150,6 +150,16 @@ select:focus {
   padding: 0 1.35rem;
 }
 
+.flashcard__card-text::-webkit-scrollbar-track,
+.flashcard__card-text::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+.flashcard__card-text::-webkit-scrollbar-thumb:hover {
+  background: var(--dark-blue-muted);
+  border-radius: 50px;
+}
+
 .flashcard__card-next {
   width: 100%;
   font-size: 1.08rem;
