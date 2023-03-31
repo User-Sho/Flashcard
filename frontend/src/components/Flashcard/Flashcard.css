@@ -42,7 +42,7 @@ select {
   font-family: var(--font-main);
   font-size: 1rem;
   font-weight: 300;
-  color: var(--white-main);
+  color: rgb(53, 118, 138);
 
   background-color: transparent;
   border: none;

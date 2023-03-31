@@ -48,7 +48,7 @@ const Home = () => {
       ) : (
         <>
           <div className="home__greet-user">
-            <h3>Hi, {user && user.name} 🥸</h3>
+            <h3>Hi, {user && user.name} ;)</h3>
           </div>
 
           <Flashcard name={user.name} />
