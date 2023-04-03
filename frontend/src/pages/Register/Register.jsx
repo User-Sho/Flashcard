@@ -129,7 +129,7 @@ const Register = () => {
             />
           </fieldset>
           <div className="registration__submit">
-            <button type="submit" className="registration__submit-btn" disabled>
+            <button type="submit" className="registration__submit-btn">
               Submit
             </button>
           </div>
